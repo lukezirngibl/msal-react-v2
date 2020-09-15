@@ -89,6 +89,7 @@ export const configureMsal = (params: {
     }
 
     const login = async () => {
+      // https://stackoverflow.com/questions/63347299/unable-to-acquire-token-silently-or-via-redirect-using-msal-browser
       try {
         let tokenResponse = await msalClient.handleRedirectPromise()
 
