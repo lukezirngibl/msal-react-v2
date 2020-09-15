@@ -28,7 +28,7 @@ npm install msal-react-v2
 
 ```ts
 
-import { configureMsal } from 'msal-react-v2/lib/AuthProvider'
+import { configureMsal, AuthProviderState } from 'msal-react-v2/lib/AuthProvider'
 
 enum Scopes {
   OPEN_ID = 'openid',
@@ -61,6 +61,8 @@ const {
     Scopes.USER_READ,
   ],
 })
+
+// I recommend have all the above ^^ in a separate MsalConfig.ts file
 
 const App = () => (
   <AuthProvider
