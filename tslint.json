@@ -1,0 +1,34 @@
+{
+  "extends": ["tslint-plugin-prettier", "tslint-config-prettier"],
+  "defaultSeverity": "warning",
+  "jsRules": true,
+  "linterOptions": {
+    "exclude": ["generated/**/*", "src/shared/icons.tsx"]
+  },
+  "rules": {
+    "array-type": [true, "generic"],
+    "import-blacklist": [true, [".*\\.tsx?$"]],
+    "interface-name": false,
+    "interface-over-type-literal": false,
+    "jsdoc-format": false,
+    "max-classes-per-file": false,
+    "member-access": [true, "no-public"],
+    "member-ordering": false,
+    "no-any": true,
+    "no-default-export": true,
+    "no-duplicate-imports": true,
+    "no-empty": false,
+    "no-implicit-dependencies": [true, "dev", ["src"]],
+    "no-object-literal-type-assertion": true,
+    "no-submodule-imports": false,
+    "no-unsafe-any": true,
+    "no-unused-expression": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": [false],
+    "one-variable-per-declaration": false,
+    "prettier": true,
+    "radix": false,
+    "triple-equals": true,
+    "variable-name": false
+  }
+}
