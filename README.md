@@ -1,6 +1,6 @@
 # MSAL React V2
 
-MSAL V2 React integration helper. I made this library because:
+MSAL V2 React (with refresh tokens!) integration provider. I made this library because:
 
 1. I kept running into issues when trying to use react-aad-msal library in conjunction with the graphClient. Namely, I got the following error:
 ```
