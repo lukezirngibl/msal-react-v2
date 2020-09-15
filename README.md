@@ -55,9 +55,9 @@ const {
   graphClient,    // Use for graph client api calls
   useAccount,     // React Hook to give access to account info in child components
 } = configureMsal({
-  config,
-  msalScopes: [Scopes.OPEN_ID, Scopes.CUSTOM_SCOPE],
-  graphClientScopes: [
+  config,                                                // Required
+  msalScopes: [Scopes.OPEN_ID, Scopes.CUSTOM_SCOPE],     // Optional (But Recommended)
+  graphClientScopes: [                                   // Optional (But Recommended
     Scopes.USER_READ,
   ],
 })
