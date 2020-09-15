@@ -51,7 +51,7 @@ const config = {
 const {
   AuthProvider,   // Use once!
   getAccessToken, // Can use to inject access tokens elsewhere in your app
-  msalClient,     // Use elsewhere in about for msalClient.logout and such
+  msalClient,     // Use elsewhere for msalClient.logout() and other client functions
   graphClient,    // Use for graph client api calls
   useAccount,     // React Hook to give access to account info in child components
 } = configureMsal({
