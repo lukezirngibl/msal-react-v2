@@ -62,7 +62,7 @@ const {
   ],
 })
 
-// I recommend have all the above ^^ in a separate MsalConfig.ts file
+// I recommend having all the above ^^ in a separate MsalConfig.ts file
 
 const App = () => (
   <AuthProvider
