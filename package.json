@@ -10,6 +10,10 @@
     "react",
     "v2"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukezirngibl/msal-react-v2.git"
+  },
   "scripts": {
     "build": "tsc",
     "patch": " yarn run build && git add -A && git commit -m 'patch' && npm version patch",
